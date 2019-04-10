@@ -1,0 +1,106 @@
+/* body{
+	background: #FFFFFF;
+} */
+
+.indentify_bg{
+	display: block;
+	width: 100%;
+	height: 360upx;
+}
+.indentify_form_box{
+	position: relative;
+	padding: 110upx 0 0 40upx;
+	font-size: 30upx;
+}
+.avatar_btn{
+	top: -80upx;
+	bottom: auto;
+	width: 160upx;
+	height: 160upx;
+	border-radius: 50%;
+	box-shadow: 0 0 8px #AEAEAE;
+}
+.align_left{
+	text-align: left;
+}
+.form_row_title{
+	margin-right: 40upx;
+}
+
+.indentify_row{
+	position: relative;
+	display: flex;
+}
+.indentify_row_title{
+	flex: none;
+	line-height: 110upx;
+}
+.indentify_row_right_box{
+	flex: 1;
+	line-height: 110upx;
+	margin-left: 40upx;
+}
+.indentify_row_input{
+	flex: 1;
+	height: 110upx;
+	margin: 0 100upx 0 40upx;
+}
+.indentify_row_select_icon{
+	left: auto;
+	right: 40upx;
+	width: 16upx;
+	height: 32upx;
+}
+.indentify_row_check_box{
+	flex: none;
+	margin-left: 40upx;
+	width: 60upx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.uncheck{
+	width: 40upx;
+	height: 40upx;
+	border-radius: 50%;
+	border: 1px solid #AEAEAE;
+	box-sizing: border-box;
+}
+.docheck{
+	width: 40upx;
+	height: 40upx;
+	border-radius: 50%;
+}
+.indentify_row_check_text{
+	line-height: 110upx;
+}
+
+.confirm_btn{
+	height: 90upx;
+	line-height: 90upx;
+	margin: 80upx auto 80upx auto;
+}
+
+.navbar_identity{
+	background: transparent;
+	box-shadow: none;
+	position: absolute;
+}
+
+.zixun_picture_box{
+	display: flex;
+	padding-bottom: 20upx;
+}
+.zixun_picture{
+	flex: 0 0 auto;
+	width: 200upx;
+	height: 240upx;
+	margin: 0 20upx;
+}
+
+.select_input{
+	display: block;
+	background: #FFFFFF;
+	padding-left: 20upx;
+}
+

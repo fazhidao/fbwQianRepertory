@@ -1,0 +1,78 @@
+.register_logo{
+	display: block;
+	width: 260upx;
+	height: 260upx;
+	margin: 0 auto 80upx auto;
+}
+.register_back_btn{
+	position: absolute;
+	top: 60upx;
+	left: 0;
+	width: 140upx;
+	text-align: center;
+	border-right: 1px solid #c8af6f;
+	color: #c8af6f;
+	font-size: 30upx;
+	line-height: 70upx;
+}
+.register_content_box{
+	padding: 0 50upx;
+}
+.register_title{
+	font-size: 30upx;
+	margin-bottom: 30upx;
+	letter-spacing: 1px;
+}
+.register_row{
+	display: flex;
+	font-size: 30upx;
+	height: 110upx;
+}
+.register_row_left{
+	position: relative;
+	width: 150upx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.register_row_left .borderX{
+	position: absolute;
+	top: 10upx;
+	bottom: 10upx;
+	right: 0;
+}
+.register_row_left image{
+	width: 60upx;
+	height: 60upx;
+}
+.register_row_right{
+	flex: 1;
+	position: relative;
+}
+.register_row_input{
+	padding-left: 50upx;
+	height: 110upx;
+}
+.register_row_input_sms{
+	width: 240upx;
+}
+
+.sms_btn{
+	left: auto;
+	right: 0;
+	width: 170upx;
+	height: 50upx;
+	line-height: 50upx;
+	border-radius: 50upx;
+	font-size: 24upx;
+	border: 1px solid #c8af6f;
+	color: #c8af6f;
+	text-align: center;
+}
+.sms_btn:active{
+	background: #F3F3F3;
+}
+
+.register_btn{
+	margin: 80upx auto 0 auto;
+}
