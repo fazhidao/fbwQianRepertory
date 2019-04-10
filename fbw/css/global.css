@@ -232,10 +232,15 @@
 .toutiao-list{
     padding: 25px;
 }
-.toutiao-item>h1{
-    color: #2e2e2e;
+.toutiao-item a{
+	display: block;
+	width: 100%;
+   
 }
-.toutiao-item>p{
+.toutiao-item a>h1{
+	 color: #2e2e2e;
+}
+.toutiao-item a>p{
     line-height: 26px;
     margin-bottom: 40px;
     color: #7c7c7c;
@@ -426,6 +431,63 @@
     width: 50px;
     height: 10px;
     border-radius: 10px;
+}
+.consult-details{
+	padding-top: 180px;
+}
+.details-left{
+	width: 800px;
+	border-right: 1px solid #d7d7d7;
+	padding-right: 50px;
+	color: #666666;
+	font-size: 16px;
+	line-height: 32px;
+}
+.consult-case{
+	margin-top: 20px;
+}
+.details-left h1{
+	font-size: 28px;
+	color: #333333;
+	text-align: center;
+	
+	/* margin-bottom: 40px; */
+}
+.details-left span{
+	display: block;
+	color: #999999;
+	font-size: 13px;
+	margin: 40px 0;
+	text-align: right;
+}
+.details-right{
+	padding-left: 50px;
+}
+.details-right h2{
+	font-size: 18px;
+}
+.recomm-list li{
+	margin: 20px 0;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #d7d7d7;
+}
+.recomm-list-item img{
+	width: 110px;
+	height: 82px;
+	margin-right: 20px;
+}
+.recomm-title{
+	position: relative;
+}
+.recomm-title p{
+	color: #333333;
+	line-height: 24px;
+}
+.recomm-title span{
+	position: absolute;
+	bottom: 5px;
+	color: #999999;
+	font-size: 13px;
 }
 
 

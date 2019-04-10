@@ -42,7 +42,7 @@ body{
 .home-page{
     margin: 0 auto;
 }
-.home-main,.service-main,.consult-main,.entrust-main{
+.home-main,.service-main,.consult-main,.entrust-main,.consult-details{
     width: 1200px;
     margin: 0 auto;
 }
@@ -71,6 +71,8 @@ body{
     text-align: center;
 }
 .fzd-header .header-nav .nav-item a{
+	display: block;
+	width: 100%;
     font-size: 16px;
 }
 .current-nav {

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="font/rzzy/rzzy.css">
+		<script type="text/javascript" src="js/common.js"></script>
+	</head>
+	<body>
+		<div class="page pageThree">
+		  <img src="image/pageThree_1.png" alt="" style="top:47%;left: 4%;" >
+		  <img src="image/pageThree_2.png" alt="" style="top:60%;right: 4%;" >	
+		  <img src="image/hexagon.png" alt=""     style="top:15%; right:26%; width: 48%;" >
+		  <p><span style="top:26vh; left: 40vw;font-size: 150px;" class="score" id="num">90</span> <span class="title">分</span></p>
+		  <p style="top: 56%; left: 20%;	position: absolute;">想知道你这几分差在哪吗？</p>
+		  <p style="top:62%; left: 30%;	position: absolute;">点击下载APP了解详情</p>
+		  <a href="" class="btn">
+		  	 <img src="image/down-button.png" alt="" style="top:82vh">
+		  </a>
+		</div>
+	</body>
+	<script type="text/javascript">
+		 window.onload=function(){
+		    var $num=document.getElementById('num');
+		    (function(){
+		        var i=1,timer;
+		        add();
+		        function add(){
+		            var timer=setTimeout(function(){
+		                add();
+		            },10);
+		            $num.innerHTML=i;
+		            i<99?i++:clearTimeout(timer)
+		        }
+		    })();
+		}
+	</script>
+</html>

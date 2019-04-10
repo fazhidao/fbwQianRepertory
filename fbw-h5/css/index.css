@@ -1,0 +1,89 @@
+
+.page {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+}
+.pageOne{
+	background: #F1DA50 url(../image/pageOne.png) no-repeat;
+	background-size: 100%;	
+}
+.pageThree{
+	background: #F1DA50 url(../image/pageThree.png) no-repeat;
+	background-size: 100%;	
+}
+.pageOne>img {
+	width: 85vw;
+	position: absolute;
+	left: 50%;
+	top:40%;
+	 transform: translate(-50%,-50%);
+}
+.btn>img,.btn>img,.btn>img{
+	width: 60vw;
+	position: absolute;
+	left: 50%;
+	top:35%;
+	transform: translate(-50%,-50%);
+}
+.pageTwo>img,.pageThree>img{
+	position: absolute;
+	width: 50%;
+}
+.pageTwo{
+	background: #F1DA50;
+	background-size: 60%;	
+}
+.pageTwo h1{
+	text-align: center;
+	padding-top: 12vh;
+	font-family: ZhenaynGB-Regular;
+	font-size: 0.9rem;
+	font-family: rzzy;
+}
+.pageThree p{
+    font-size: 0.5rem;
+	text-align: center;
+}
+.formInfo{
+	width: 70vw;
+	height: 50vh;
+	position: absolute;
+	left: 50%;
+	top:60%;
+	 transform: translate(-50%,-50%);
+}
+.form-item{
+	margin-bottom: 0.9rem;
+}
+form label{
+	display: inline-block;
+	width: 2rem;
+	font-size: 0.4rem;
+	/* color: #FF0000; */
+}
+form input{
+	outline: none;
+	background: #F1DA50;
+	border-bottom: 1px solid black;
+	width: 4.5rem;
+	text-indent: 0.2rem;
+	font-size: 0.4rem;
+}
+.score{
+	position: absolute;
+	font-family: rzzy;
+	font-size: 1rem;
+}
+.title{
+	position: absolute;
+	right: 38vw;
+	top:24vh; 
+	font-size: 0.4rem;
+	font-family: rzzy;
+}
+
+
+
+
+
