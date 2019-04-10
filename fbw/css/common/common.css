@@ -66,21 +66,20 @@ body{
 }
 .fzd-header .header-nav .nav-item{
     width: 120px;
-    height: 50px;
-    line-height: 50px;
+    height: 40px;
+    line-height: 40px;
     text-align: center;
 }
 .fzd-header .header-nav .nav-item a{
 	display: block;
 	width: 100%;
-    font-size: 16px;
+    font-size: 20px;
+	color: #686D7B;
 }
 .current-nav {
     border-radius: 4px;
     background: #eaf0f4;
-}
-.current-nav a{
-    color: #2b90d9;
+	color: #2b90d9 !important;
 }
 .header-nav .nav-item:hover{
     border-radius: 4px;
@@ -102,4 +101,7 @@ body{
 .footer-nav a{
     color: #ffffff;
 }
-
+.ewm-pic img{
+	width: 200px;
+	margin-bottom: 10px;
+}

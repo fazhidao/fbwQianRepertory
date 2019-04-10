@@ -1,4 +1,14 @@
-
+/* .banner{
+	min-width: 1200px;
+	width: 100vw;
+	height: 96vh;
+	background: url(../image/service-banner.png) center;
+} */
+/* .banner img{
+	position:relative;
+	top:200px;
+	left: 680px;
+} */
 .service-consult{
     position: fixed;
     width: 100px;
@@ -11,18 +21,20 @@
     padding-top: 20px;
 }
 .app-online .online-text,.about-us-text,.module-text{
-    margin-top: 40px;
-    width: 550px;
+    margin-top: 130px;
+    width:470px;
 }
 .app-online .online-text h1,.about-us-text h1,.module-text h1{
     height: 100px;
     line-height: 100px;
     font-size: 30px;
     color: black;
+	font-size: 36px;
+	color: #282c37;
 }
 .app-online .online-text p,.about-us-text p,.module-text p{
     font-size: 18px;
-    color: #888888;
+    color: #5c616e;
     line-height: 30px;
 }
 .app-online .online-text a,.module-text a{
@@ -31,10 +43,10 @@
     height: 60px;
     line-height: 60px;
     text-align: center;
-    background: #0a091b;
-    border-radius: 4px;
+    background: #282c37;
+    border-radius: 8px;
     color: #ffffff;
-    font-size: 22px;
+    font-size: 26px;
     margin-top: 80px;
 }
 .multi-module{
@@ -46,30 +58,29 @@
 }
 .module-list{
     flex-wrap: wrap;
-    width: 530px;
-    height: 690px;
+    width:560px;
+    height: 680px;
     position: relative;
 }
 .module-item{
     position: absolute;
     margin-top: 20px;
-    width: 250px;
-    height: 270px;
-    border-radius: 4px;
-    padding-top: 30px;
-    padding-left: 40px;
+    width: 260px;
+    height: 290px;
+    border-radius: 8px;
+    padding: 30px 40px 40px 50px;
 }
 .module-item img{
     margin-bottom: 30px;
  }
 .module-item h1{
-    font-size: 18px;
-    color: #333333;
+    font-size: 20px;
+    color: #686d7b;
     margin-bottom: 20px;
 }
 .module-item h5{
-    font-size: 18px;
-    color: #999999;
+    font-size: 16px;
+    color: #9baec8;
     line-height: 30px;
 }
  .title,.enterprise-combo .title{
@@ -78,6 +89,7 @@
 }
  .title h1,.enterprise-combo .title h1{
     font-size: 30px;
+	color: #282C37;
 }
  .title h5,.enterprise-combo .title h5{
     font-size: 18px;
@@ -100,16 +112,7 @@
     border-radius: 4px;
     text-align: center;
 }
-.ewm-pic{
-    width: 110px;
-    text-align: center;
-}
-.ewm-pic img{
-    width: 100%;
-}
-.ewm-pic h5{
- margin-top: 15px;
-}
+
 .icon-checked{
     width: 20px;
     height: 20px;
@@ -138,6 +141,7 @@
 }
 .common-list .common-item{
     line-height: 40px;
+	color: #686D7B;
 }
 .price{
     position: absolute;
@@ -158,6 +162,7 @@
 }
 .app-download h6{
     margin-top: 10px;
+	color: #282c437;
 }
 .order-list{
 }
@@ -232,21 +237,22 @@
 .toutiao-list{
     padding: 25px;
 }
-.toutiao-item a{
-	display: block;
-	width: 100%;
-   
-}
 .toutiao-item a>h1{
-	 color: #2e2e2e;
+    color: #333333;
+	font-size: 20px;
 }
 .toutiao-item a>p{
+	font-size: 14px;
     line-height: 26px;
     margin-bottom: 40px;
-    color: #7c7c7c;
+    color: #666666;
+	font-size: 16px;
 }
 .count-time{
     margin: 20px 0;
+}
+.count-time p{
+	font-size: 14px;
 }
 .count-icon{
     display: inline-block;
@@ -276,6 +282,10 @@
 }
 .center-item{
     margin-top: 30px;
+}
+.center-item h2{
+	font-size: 16px;
+	color: #333333;
 }
 .case-title{
     width: 100%;
@@ -333,6 +343,10 @@
     left: 4px;
     top:8px;
 }
+.advantage-item p{
+	text-align: center;
+	margin-top: 10px;
+}
 .advantage-item h2{
     text-align: center;
     font-size: 20px;
@@ -355,28 +369,45 @@
 }
 .manage-order>img{
     position: absolute;
-    left: 380px;
+    left: 390px;
+	top:100px;
 }
 .manage-item{
-    position: relative;
-}
-.manage-item{
-    margin-top: 30px;
+ padding: 30px;
+	 position: relative;
 }
 .item-pic{
     position: relative;
 }
-.item-pic .one-icon{
+.item-pic>img{
+    width: 300px;
+}
+.item-pic .item-icon{
     display: block;
     width: 50px;
     height: 40px;
     position: absolute;
-    background: url("../image/one-icon.png") no-repeat;
     top: 0;
     right: 0;
 }
+.one-icon{
+    background: url("../image/one-icon.png") no-repeat;
+}
+.two-icon{
+    background: url("../image/two-icon.png") no-repeat;
+}
+.three-icon{
+    background: url("../image/three-icon.png") no-repeat;
+}
+.four-icon{
+    background: url("../image/four-icon.png") no-repeat;
+}
+.five-icon{
+    background: url("../image/five-icon.png") no-repeat;
+}
 .item-text{
-    margin-top: 50px;
+    width: 340px;
+    margin-top: 30px;
     margin-left: 20px;
 }
 .item-text h1{
@@ -386,7 +417,9 @@
 .item-text span {
     font-size: 20px;
     color: #717171;
-    line-height: 40px;
+    line-height: 30px;
+    display: block;
+    margin-top:20px;
 }
 /*轮播图样式*/
 .ft-carousel {
@@ -432,62 +465,59 @@
     height: 10px;
     border-radius: 10px;
 }
+/* 资讯详情样式 */
 .consult-details{
 	padding-top: 180px;
 }
 .details-left{
 	width: 800px;
-	border-right: 1px solid #d7d7d7;
 	padding-right: 50px;
-	color: #666666;
-	font-size: 16px;
-	line-height: 32px;
-}
-.consult-case{
-	margin-top: 20px;
+	border-right: 1px solid#d7d7d7;
 }
 .details-left h1{
+	text-align: center;
 	font-size: 28px;
 	color: #333333;
-	text-align: center;
-	
-	/* margin-bottom: 40px; */
 }
 .details-left span{
 	display: block;
-	color: #999999;
-	font-size: 13px;
-	margin: 40px 0;
 	text-align: right;
+	color: #999999;
+	margin: 30px 0;
+}
+.details-left p{
+	color: #333333;
+	line-height: 34px;
+	margin-bottom: 30px;
 }
 .details-right{
 	padding-left: 50px;
 }
 .details-right h2{
+	margin-bottom: 20px;
 	font-size: 18px;
 }
-.recomm-list li{
-	margin: 20px 0;
+.recomm-list-item {
 	padding-bottom: 20px;
+	margin-bottom: 20px;
 	border-bottom: 1px solid #d7d7d7;
-}
+	
+}	
 .recomm-list-item img{
 	width: 110px;
 	height: 82px;
 	margin-right: 20px;
-}
+}	
 .recomm-title{
 	position: relative;
 }
 .recomm-title p{
+	line-height: 26px;
 	color: #333333;
-	line-height: 24px;
 }
 .recomm-title span{
 	position: absolute;
 	bottom: 5px;
 	color: #999999;
-	font-size: 13px;
+	color: 13px;
 }
-
-
