@@ -1,7 +1,7 @@
 <template>
 	<view style="background: #FFFFFF;">
 		<view class="navbar_index">
-			<div class="navbar_index_title">首页</div>
+			<div class="navbar_index_title">首页 </div>
 			<view class="navbar_index_icon_box" @click="goSign()">
 				<image class="navbar_index_icon absolute_center" src="../../static/index/qiandao2.png"></image>
 			</view>

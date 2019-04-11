@@ -50,10 +50,12 @@
 	height: 24px;
 }
 .vip_price{
-	color: #bc911b;
+	color: #FF0000;
 }
 .vip_item1_title{
 	margin: 5px 0;
+	font-size: 30upx;
+	color: #666666;
 }
 
 .vip_item2{

@@ -32,7 +32,7 @@
 			<!-- <image class="vip_icon" src="../../static/vip/demon.png" mode=""></image> -->
 			<view class=""  style="padding-bottom: 20px;">
 				<view class="vip_item1_title">{{vip_list[1].title}}：<text class="vip_price">￥{{vip_list[1].new_price}}/年</text></view>
-				<view class="market-price">市场价￥33000/年</view>	
+				<view class="market-price">市场价￥67000/年</view>	
 			</view>		
 			<!-- <view class="vip_price">￥{{vip_list[1].new_price}}/年</view> -->
 			<view class="vip_btn" @click="goPayment(1)">
@@ -66,14 +66,14 @@
 			</view>
 		</view>
 		<view class="vip2_right_box">
-			<view>文库合同下载：<text class="free-num">全部免费，</text> <text class="market-price">市场价￥500/份</text></view>
+			<view>文库合同下载：<text class="free-num">全部免费，</text> <text class="market-price">市场价￥20/份</text></view>
 			<view>法务在线咨询：<text class="free-num">全部免费，</text> <text class="market-price">市场价￥20/问</text></view>
 			<view>企业合同审核：<text class="free-num">免费 {{vip_list[2].contract_audit_times}} 份，</text><text class="market-price">市场价￥500/份</text></view>
 			<view>企业合同定制：<text class="free-num">免费 {{vip_list[2].contract_make_times}} 份，</text><text class="market-price">市场价￥1000/份</text></view>
 			<view>企业法律讲座：<text class="free-num">免费邀请 3 场 10 人，</text><text class="market-price">市场价￥500/人次</text></view>
 			<view>企业综合风险评估：<text class="free-num">免费 5 次，</text><text class="market-price">市场价￥10000/人次</text></view>
-			<view>案件委托平台服务费：<text class="free-num">全部免费</text><text class="market-price">市场价￥500/件</text></view>
-			<view>诉讼垫资平台服务费：<text class="free-num">全部免费</text><text class="market-price">市场价￥1000/件</text></view>
+			<view>案件委托平台服务费：<text class="free-num">全部免费，</text><text class="market-price">市场价￥500/件</text></view>
+			<view>诉讼垫资平台服务费：<text class="free-num">全部免费，</text><text class="market-price">市场价￥1000/件</text></view>
 		</view>
 	</view>
 	

@@ -332,6 +332,18 @@
 				}
 			}
         },
+		{
+		    "path" : "pages/index/vip3",
+		    "style" : {
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"type": "transparent",
+						"titleText": "开通会员"
+					}
+				}
+			}
+		},
         {
             "path" : "pages/index/vip",
             "style" : {
@@ -356,18 +368,7 @@
 				}
 			}
         },
-			{
-		    "path" : "pages/index/vip3",
-		    "style" : {
-				"app-plus": {
-					"bounce": "none",
-					"titleNView": {
-						"type": "transparent",
-						"titleText": "开通会员"
-					}
-				}
-			}
-		},
+		
         {
             "path" : "pages/index/welcome",
             "style" : {
