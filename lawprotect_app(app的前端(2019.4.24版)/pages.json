@@ -1,0 +1,608 @@
+{
+    "pages" : [
+		{
+		    "path" : "pages/index/index",
+		    "style" : {
+				"enablePullDownRefresh" : true,
+				"app-plus": {
+					"pullToRefresh": {
+						"style": "circle"
+					},
+					"bounce": "none",
+					"titleNView": false
+				}
+		    }
+		},
+        {
+            "path" : "pages/learn_law/learn_law",
+            "style" : {
+        		"enablePullDownRefresh" : true,
+        		"navigationBarTextStyle" : "white",
+                "app-plus": {
+					"pullToRefresh": {
+						"style": "circle"
+					},
+                	"bounce": "none",
+                	"titleNView": {
+                		"titleText": "学法",
+                		"titleColor": "#FFFFFF",
+                		"backgroundColor": "#CCB17F"
+                	}
+                }
+            }
+        },
+        {
+            "path" : "pages/ask_law/ask_law",
+            "style" : {
+                "app-plus": {
+                	"bounce": "none",
+                	"titleNView": false
+                }
+            }
+        },
+		{
+		    "path" : "pages/learn_law/detail_webview",
+		    "style" : {
+		        "app-plus": {
+		        	"bounce": "none",
+		        	"titleNView": {
+		        		"titleText": "文章详情",
+		        		"titleColor": "#333333",
+						"buttons": [
+							{ "type": "share" }
+						]
+		        	}
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/login/register_agreement",
+		    "style" : {
+		        "app-plus": {
+		        	"bounce": "none",
+		        	"titleNView": {
+		        		"titleText": "注册协议",
+		        		"titleColor": "#333333"
+		        	}
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/mine/lawyer_manage_web",
+		    "style" : {
+		        "app-plus": {
+		        	"bounce": "none",
+		        	"titleNView": {
+		        		"titleText": "入驻律师管理办法",
+		        		"titleColor": "#333333"
+		        	}
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/use_law/use_law",
+		    "style" : {
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"titleText": "用法",
+						"titleColor": "#333333",
+						"backgroundColor": "#FFFFFF"
+					}
+				}
+			}
+		},
+        {
+            "path" : "pages/mine/mine",
+            "style" : {
+				"navigationBarTextStyle" : "white",
+				"enablePullDownRefresh" : true,
+                "app-plus": {
+					"pullToRefresh": {
+						"style": "circle"
+					},
+                	"bounce": "none",
+                	"titleNView": false
+                }
+            }
+        },
+        {
+            "path" : "pages/mine/system_manage",
+            "style" : {
+				"titleNView": {
+					"titleText": "系统设置",
+					"titleColor": "#333333",
+					"backgroundColor": "#FFFFFF"
+				}
+			}
+        },
+        {
+            "path" : "pages/mine/about_us",
+            "style" : {
+				"titleNView": {
+					"titleText": "关于我们",
+					"titleColor": "#333333",
+					"backgroundColor": "#FFFFFF"
+				}
+			}
+        },
+        {
+            "path" : "pages/mine/edit_userinfo",
+            "style" : {
+				"titleNView": {
+					"titleText": "个人资料",
+					"titleColor": "#333333",
+					"backgroundColor": "#FFFFFF"
+				}
+			}
+        },
+		{
+            "path" : "pages/mine/message",
+            "style" : {
+				"titleNView": {
+					"titleText": "消息",
+					"titleColor": "#333333",
+					"backgroundColor": "#FFFFFF"
+				}
+			}
+        },
+		{
+            "path" : "pages/mine/convert",
+            "style" : {
+				"titleNView": {
+					"titleText": "积分兑换",
+					"titleColor": "#333333",
+					"backgroundColor": "#FFFFFF"
+				}
+			}
+        },
+		{
+            "path" : "pages/mine/my_ask_help",
+            "style" : {
+				"enablePullDownRefresh" : true,
+				"app-plus": {
+					"pullToRefresh": {
+						"style": "circle"
+					},
+					"bounce": "none"
+				},
+				"titleNView": {
+					"titleText": "我的咨询",
+					"titleColor": "#FFFFFF",
+					"backgroundColor": "#CCB17F"
+				}
+			}
+        },
+		{
+            "path" : "pages/mine/my_ask_help_detail",
+            "style" : {
+				"titleNView": {
+					"titleText": "我的咨询详情",
+					"titleColor": "#FFFFFF",
+					"backgroundColor": "#CCB17F"
+				}
+			}
+        },
+		{
+            "path" : "pages/mine/my_ask_entrust",
+            "style" : {
+				"titleNView": {
+					"titleText": "我的委托",
+					"titleColor": "#FFFFFF",
+					"backgroundColor": "#CCB17F"
+				}
+			}
+        },
+		{
+            "path" : "pages/mine/my_ask_advance",
+            "style" : {
+				"titleNView": {
+					"titleText": "我的诉讼垫资",
+					"titleColor": "#FFFFFF",
+					"backgroundColor": "#CCB17F"
+				}
+			}
+        },
+		{
+            "path" : "pages/mine/my_make_contract",
+            "style" : {
+				"titleNView": {
+					"titleText": "我的合同定制",
+					"titleColor": "#FFFFFF",
+					"backgroundColor": "#CCB17F"
+				}
+			}
+        },
+		
+		{
+            "path" : "pages/mine/my_constract",
+            "style" : {
+				"titleNView": {
+					"titleText": "我的文库",
+					"titleColor": "#FFFFFF",
+					"backgroundColor": "#CCB17F"
+				}
+			}
+        },
+		{
+            "path" : "pages/mine/entrust_list",
+            "style" : {
+				"enablePullDownRefresh" : true,
+				"app-plus": {
+					"pullToRefresh": {
+						"style": "circle"
+					},
+					"bounce": "none"
+				},
+				"titleNView": {
+					"titleText": "案件代理",
+					"titleColor": "#333333",
+					"backgroundColor": "#FFFFFF"
+				}
+			}
+        },
+		{
+            "path" : "pages/mine/entrust_my",
+            "style" : {
+				"titleNView": {
+					"titleText": "我的代理",
+					"titleColor": "#333333",
+					"backgroundColor": "#FFFFFF"
+				}
+			}
+        },
+		{
+            "path" : "pages/mine/chat_webview",
+            "style" : {
+				"titleNView": {
+					"titleText": "在线客服",
+					"titleColor": "#333333",
+					"backgroundColor": "#FFFFFF"
+				}
+			}
+        },
+		{
+            "path" : "pages/index/sign",
+            "style" : {
+				"titleNView": {
+					"type": "transparent"
+				}
+			}
+        },
+		{
+            "path" : "pages/index/sign_webview",
+            "style" : {
+				"titleNView": {
+					"type": "transparent"
+				}
+			}
+        },
+        {
+            "path" : "pages/use_law/calculate_susong",
+            "style" : {
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"titleText": "诉讼费计算"
+					}
+				}
+			}
+        },
+        {
+            "path" : "pages/use_law/calculate_weiyue",
+            "style" : {
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"titleText": "违约金计算"
+					}
+				}
+			}
+        },
+        {
+            "path" : "pages/use_law/make_contract1",
+            "style" : {
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"titleText": "定制合同",
+						"titleColor": "#FFFFFF"
+					}
+				}
+			}
+        },
+		{
+		    "path" : "pages/use_law/make_contract",
+		    "style" : {
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"titleText": "定制、审核合同",
+						"titleColor": "#FFFFFF"
+					}
+				}
+			}
+		},
+		{
+		    "path" : "pages/use_law/daixie_wenshu",
+		    "style" : {
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"titleText": "代写文书",
+						"titleColor": "#FFFFFF"
+					}
+				}
+			}
+		},
+		{
+		    "path" : "pages/use_law/lvshihan",
+		    "style" : {
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"titleText": "律师函",
+						"titleColor": "#FFFFFF"
+					}
+				}
+			}
+		},
+        {
+            "path" : "pages/contract/contracts",
+            "style" : {
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": false
+				}
+			}
+        },
+        {
+            "path" : "pages/contract/contract_detail",
+            "style" : {
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"titleText": "合同详情",
+						"titleColor": "#333333",
+						"backgroundColor": "#FFFFFF"
+					}
+				}
+			}
+        },
+        {
+            "path" : "pages/index/vip",
+            "style" : {
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"type": "transparent",
+						"titleText": "开通会员"
+					}
+				}
+			}
+        },
+		{
+            "path" : "pages/index/vip2",
+            "style" : {
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"type": "transparent",
+						"titleText": "开通会员"
+					}
+				}
+			}
+        },
+        {
+            "path" : "pages/index/welcome",
+            "style" : {
+				"navigationBarTextStyle" : "white",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": false
+				}
+			}
+        },
+        {
+            "path" : "pages/login/login",
+            "style" : {
+				"navigationBarTextStyle" : "white",
+                "app-plus": {
+                	"bounce": "none",
+                	"titleNView": false
+                }
+            }
+        },
+        {
+            "path" : "pages/login/register",
+            "style" : {
+                "app-plus": {
+                	"bounce": "none",
+                	"titleNView": false
+                }
+            }
+        },
+        {
+            "path" : "pages/login/change_pwd",
+            "style" : {
+                "app-plus": {
+                	"bounce": "none",
+                	"titleNView": false
+                }
+            }
+        },
+        {
+            "path" : "pages/login/bind_phone",
+            "style" : {
+                "app-plus": {
+                	"bounce": "none",
+                	"titleNView": false
+                }
+            }
+        },
+        {
+            "path" : "pages/login/chose_class",
+            "style" : {
+				"titleNView": false
+			}
+        },
+        {
+            "path" : "pages/login/identify_person",
+            "style" : {
+				"navigationBarTextStyle" : "white",
+                "app-plus": {
+                	"bounce": "none",
+                	"titleNView": {
+						"type": "transparent",
+                		"titleText": "用户认证"
+                	}
+                }
+            }
+        },
+        {
+            "path" : "pages/login/identify_lawyer",
+            "style" : {
+				"navigationBarTextStyle" : "white",
+                "app-plus": {
+                	"bounce": "none",
+                	"titleNView": {
+						"type": "transparent",
+                		"titleText": "律师认证"
+                	}
+                }
+            }
+        },
+        {
+            "path" : "pages/login/identify_company",
+            "style" : {
+				"navigationBarTextStyle" : "white",
+                "app-plus": {
+                	"bounce": "none",
+                	"titleNView": {
+						"type": "transparent",
+                		"titleText": "企业认证"
+                	}
+                }
+            }
+        },
+        {
+            "path" : "pages/login/privacy_webview",
+            "style" : {}
+        },
+        {
+            "path" : "pages/payment/chose_type",
+            "style" : {
+				"bounce": "none",
+				"titleNView": {
+					"titleText": "收银台",
+					"titleColor": "#333333",
+					"backgroundColor": "#FFFFFF"
+				}
+			}
+        },
+        {
+            "path" : "pages/payment/success",
+            "style" : {
+				"bounce": "none",
+				"titleNView": false
+			}
+        },
+		{
+            "path" : "pages/service/service",
+            "style" : {
+            	"navigationBarTextStyle" : "white",
+                "app-plus": {
+                	"bounce": "none",
+                	"titleNView": {
+            			"type": "transparent",
+                		"titleText": "企业服务"
+                	}
+                }
+            }
+        },
+		{
+            "path" : "pages/service/form",
+            "style" : {
+            	"navigationBarTextStyle" : "white",
+                "app-plus": {
+                	"bounce": "none",
+                	"titleNView": {
+            			"type": "transparent",
+                		"titleText": "企业服务"
+                	}
+                }
+            }
+        },
+		{
+		    "path" : "pages/mine/my_services",
+		    "style" : {
+				"enablePullDownRefresh" : true,
+				"app-plus": {
+					"pullToRefresh": {
+						"style": "circle"
+					},
+					"bounce": "none"
+				},
+				"titleNView": {
+					"titleText": "我的企业服务",
+					"titleColor": "#FFFFFF",
+					"backgroundColor": "#CCB17F"
+				}
+			}
+		}
+    ],
+    "globalStyle" : {
+        "navigationBarTextStyle" : "black",
+        "backgroundColor" : "#F3F3F3",
+        "backgroundColorTop" : "#F3F3F3",
+        "backgroundColorBottom" : "#F3F3F3"
+    },
+    "tabBar" : {
+        "color" : "#767676",
+        "selectedColor" : "#ccb17e",
+        "backgroundColor" : "#FFFFFF",
+        "list" : [
+            {
+                "pagePath" : "pages/index/index",
+                "text" : "首页",
+                "iconPath" : "/static/tabs/tab1.png",
+                "selectedIconPath" : "/static/tabs/tab1-active.png"
+            },
+            {
+                "pagePath" : "pages/ask_law/ask_law",
+                "text" : "问法",
+                "iconPath" : "/static/tabs/tab2.png",
+                "selectedIconPath" : "/static/tabs/tab2-active.png"
+            },
+            {
+                "pagePath" : "pages/learn_law/learn_law",
+                "text" : "学法",
+                "iconPath" : "static/tabs/tab3.png",
+                "selectedIconPath" : "/static/tabs/tab3-active.png"
+            },
+            {
+                "pagePath" : "pages/use_law/use_law",
+                "text" : "用法",
+                "iconPath" : "/static/tabs/tab4.png",
+                "selectedIconPath" : "/static/tabs/tab4-active.png"
+            },
+            {
+                "pagePath" : "pages/mine/mine",
+                "text" : "我的",
+                "iconPath" : "/static/tabs/tab5.png",
+                "selectedIconPath" : "/static/tabs/tab5-active.png"
+            }
+        ]
+    },
+    "condition" : {
+        //模式配置，仅开发期间生效
+        "current" : 0, //当前激活的模式(list 的索引项)
+        "list" : [
+            {
+                "name" : "", //模式名称
+                "path" : "", //启动页面，必选
+                "query" : "" //启动参数，在页面的onLoad函数里面得到
+            }
+        ]
+    }
+}

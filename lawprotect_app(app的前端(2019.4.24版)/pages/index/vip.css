@@ -1,0 +1,119 @@
+.vip_bg{
+	display: block;
+	width: 100%;
+	height: 470upx;
+}
+.vip_title{
+	font-size: 18px;
+	letter-spacing: 2px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.vip_list_box{
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 20upx;
+	margin-bottom: 20px;
+}
+.vip_item1{
+	flex: 1;
+	margin-right: 20upx;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 14px;
+	border-radius: 8px;
+	border: 1px solid #fff9e8;
+	box-shadow: 0 0 6px rgba(190,150,40,0.15);
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.vip_icon{
+	width: 40upx;
+	height: 40upx;
+}
+.vip_btn{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80px;
+	height: 24px;
+	margin-top: 10px;
+	color: #19b3ff;
+	font-size: 12px;
+}
+.vip_btn_bg{
+	display: block;
+	width: 100%;
+	height: 24px;
+}
+.vip_price{
+	color: #bc911b;
+}
+.vip_price_red{
+	color: red;
+}
+.vip_item1_title{
+	margin: 5px 0;
+	font-size: 28upx;
+}
+
+.vip_item2{
+	flex: 1;
+	margin-right: 20upx;
+	display: flex;
+	min-width: 150px;
+	height: 40px;
+	justify-content: space-between;
+	align-items: center;
+	padding: 6px;
+	border-radius: 8px;
+	border: 1px solid #fff9e8;
+	font-size: 14px;
+	box-shadow: 0 0 6px rgba(190,150,40,0.15);
+	margin-bottom: 10px;
+}
+.vip_item2 .vip_btn{
+	margin: 0;
+	width: 70px;
+}
+
+.vip2_box{
+	/* display: flex; */
+	border-radius: 8px;
+	border: 1px solid #fff9e8;
+	box-shadow: 0 0 6px rgba(190,150,40,0.15);
+	padding: 10px 10px 10px 0;
+	margin: 10px;
+}
+.free-num{
+	color: red;
+	margin-right: 10px;
+}
+.market-price{
+	font-size: 12px;
+	color: #999999;
+	text-decoration:line-through;
+}
+.ip2_left_box{
+	padding: 0 40px;
+	box-sizing: border-box;
+	width:100%;
+	display: flex;
+	/* flex-direction: column; */
+	justify-content: space-between;
+	/* align-items: center; */
+	font-size: 24upx;
+}
+.vip2_right_box{
+	flex: 1;
+	font-size: 24upx;
+	color: #666666;
+	padding: 0 20px;
+}
+.vip2_right_box view{
+	line-height: 30px;
+	text-align: left;
+}

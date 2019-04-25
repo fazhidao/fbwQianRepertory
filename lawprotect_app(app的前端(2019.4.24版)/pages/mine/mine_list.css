@@ -1,0 +1,92 @@
+.mine_top_tab_box{
+	display: flex;
+	height: 80upx;
+	line-height: 80upx;
+	background: #CCB17F;
+	color: #FFFFFF;
+	font-size: 28upx;
+}
+.mine_top_tab_item{
+	position: relative;
+	flex: 1;
+	text-align: center;
+}
+.mine_top_tab_border{
+	width: 100upx;
+	height: 4upx;
+	border-radius: 4upx;
+	background: #FFFFFF;
+	top: auto;
+	bottom: 8upx;
+}
+
+.mine_content_box{
+	padding: 30upx;
+}
+.mine_item{
+	position: relative;
+	padding: 20upx;
+	background: #FFFFFF;
+	border-radius: 8upx;
+	overflow: hidden;
+	margin-bottom: 30upx;
+	box-shadow: 1px 1px 6px #CECECE;
+}
+.mine_item_title{
+	color: #000000;
+	line-height: 50upx;
+	font-size: 32upx;
+	padding-right: 140upx;
+}
+.mine_item_detail{
+	color: #979797;
+	line-height: 50upx;
+	padding-right: 140upx;
+	font-size: 28upx;
+}
+.mine_item_btn_box{
+	display: flex;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+}
+.mine_item_btn,.mine_item_btn_main{
+	flex: none;
+	line-height: 20upx;
+	text-align: center;
+	border: 1px solid #CCB17F;
+	margin-left: 20upx;
+	padding: 16upx 24upx;
+	border-radius: 50upx;
+	font-size: 30upx;
+	color: #CCB17F;
+	margin-top: 20upx;
+}
+.mine_item_btn:active{
+	background: #f0f0f0;
+}
+.mine_item_btn_main{
+	background: #CCB17F;
+	color: #FFFFFF;
+}
+.mine_item_btn_main:active{
+	background: #a58446;
+}
+
+.mine_item_tag{
+	position: absolute;
+	height: 60upx;
+	line-height: 60upx;
+	text-align: center;
+	width: 180upx;
+	background: #CCB17F;
+	transform: rotate(45deg);
+	color: #FFFFFF;
+	right: -50upx;
+	top: 10upx;
+}
+.tag_wait{
+	background: #00d4c3;
+}
+.tag_reply{
+	background: #ff4c39;
+}
