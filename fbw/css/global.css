@@ -521,3 +521,78 @@
 	color: #999999;
 	color: 13px;
 }
+/* 登陆样式 */
+.login-page{
+	position: relative;
+	width: 100vw;
+    height: 100vh;	 	
+    background:url(../image/login-bg.png)no-repeat, linear-gradient(to right, #41bbda , #6b8dee); /* 标准的语法 */
+}
+.login-bg{
+	position: absolute;
+    width: 800px;
+	height: 450px;
+	background: linear-gradient(to top left,#580174, #5C83FD );
+	border-radius: 20px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+.login-box{
+	position: absolute;
+	right: 25px;
+	top:-25px;
+	width: 42%;
+	height: 500px;
+	background: #FFFFFF;
+	border-radius: 20px;
+}
+.login-box{
+	padding: 60px 40px;
+	text-align: center;
+}
+.login-info h1{
+	margin-bottom: 20px;
+	font-size: 18px;
+	color: #333333;
+	line-height: 30px;
+}
+.login-info .row-item{
+	padding-top: 30px;
+}
+.phone-code input,.pass-word input,.submit input{
+    width: 100%;
+	height: 40px;
+	background:#d9f4ff ;
+	border-radius: 20px;
+	text-indent: 20px;
+}
+.submit a{
+	margin-top: 20px;
+	display: block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	background:#64c8fa;
+	text-align: center;
+	color: #FFFFFF;
+	border-radius: 20px;
+}
+.note{
+	color:#64c8fa;
+	font-size:16px;
+	text-decoration: underline;
+}
+.footnote a:hover{
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+

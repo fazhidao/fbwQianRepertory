@@ -105,3 +105,24 @@ body{
 	width: 200px;
 	margin-bottom: 10px;
 }
+input:focus{
+	outline: none;
+}
+input::-webkit-input-placeholder {
+	font-size: 14px;
+  color: #b2b2b2;
+}
+input::-moz-placeholder {
+font-size: 14px;
+  color: #b2b2b2;
+}
+input:-moz-placeholder {
+  font-size: 14px;
+  color: #b2b2b2;
+}
+input:-ms-input-placeholder {
+ font-size: 14px;
+  color: #b2b2b2;
+}
+
+
